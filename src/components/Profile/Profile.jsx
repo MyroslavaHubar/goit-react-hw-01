@@ -1,4 +1,4 @@
-const Profile = ({ name, tag, location, image, stats }) => {
+function Profile({ name, tag, location, image, stats }) {
     return (
         <div>
             <div>
@@ -27,7 +27,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
             </ul>
         </div>
 
-    )
-};
+    );
+}
 
 export default Profile;
