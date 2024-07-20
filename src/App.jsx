@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       
-        <Profile
+      <Profile
+        key={userData.username}
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
