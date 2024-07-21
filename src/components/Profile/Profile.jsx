@@ -11,16 +11,16 @@ function Profile({ name, tag, location, image, stats }) {
       </div>
 
       <ul className={css.stats}>
-        <li>
-          <span>Followers</span>
+        <li className={css.statsItem}>
+          <span className={css.statsText}>Followers</span>
           <span className={css.statsValue}>{stats.followers}</span>
         </li>
-        <li>
-          <span>Views</span>
+        <li className={css.statsItem}>
+          <span className={css.statsText}>Views</span>
           <span className={css.statsValue}>{stats.views}</span>
         </li>
-        <li>
-          <span>Likes</span>
+        <li className={css.statsItem}>
+          <span className={css.statsText}>Likes</span>
           <span className={css.statsValue}>{stats.likes}</span>
         </li>
       </ul>

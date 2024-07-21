@@ -1,8 +1,59 @@
 .card {
-  width: 300px;
+  min-width: 300px;
   border: 2px solid #0c0c0c;
   border-radius: 10px;
-  /* margin: 15px auto; */
-  padding: 10px;
+  padding: 10px 0 0 0;
   background-color: #eeebe26b;
+  text-align: center;
+}
+
+.profile {
+  color: #0c0c0caf;
+}
+
+.avatar {
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #393737d6;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin-bottom: 5px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #0c0c0c61;
+  background-color: #7c7c798f;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.statsItem {
+  flex: 1;
+  padding: 10px 0 10px 0;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid #0c0c0c61;
+}
+
+.statsText {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.statsValue {
+  display: block;
 }
