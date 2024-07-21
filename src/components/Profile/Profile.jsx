@@ -4,7 +4,7 @@ function Profile({ name, tag, location, image, stats }) {
   return (
     <div className={css.card}>
       <div className={css.profile}>
-        <img className={css.avatar} src={image} alt="User avatar" />
+        <img className={css.avatar} src={image} alt="User avatar" width="100" />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
