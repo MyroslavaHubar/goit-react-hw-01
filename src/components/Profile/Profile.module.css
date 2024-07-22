@@ -1,10 +1,11 @@
 .card {
-  min-width: 300px;
+  width: 300px;
   border: 2px solid #0c0c0c;
   border-radius: 10px;
   padding: 10px 0 0 0;
   background-color: #eeebe26b;
   text-align: center;
+  margin: 0 auto;
 }
 
 .profile {
