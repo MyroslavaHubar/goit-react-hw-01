@@ -1,0 +1,15 @@
+.photo {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.online {
+  color: #0a810c;
+}
+
+.offline {
+  color: #a11414;
+}
